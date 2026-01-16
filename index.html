@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat Singh | Senior Full-Stack Engineer & AI Architect</title>
+    
+    <!-- SEO & Meta Tags -->
+    <meta name="description" content="Portfolio of Bharat Singh, a Senior Full-Stack Engineer specializing in AI-integrated web systems, scalable cloud architectures, and premium UI/UX design. Based in 2026 tech standards." />
+    <meta name="keywords" content="Bharat Singh, Full Stack Engineer, React Developer, AI Integration, Senior Software Architect, 2026 Portfolio" />
+    <meta name="author" content="Bharat Singh" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bharat Singh | Engineering Intelligence" />
+    <meta property="og:description" content="Explore the next-gen digital experiences crafted by Bharat Singh." />
+    <meta property="og:image" content="https://picsum.photos/seed/bharat-og/1200/630" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+      :root {
+        --primary: #6366f1;
+        --secondary: #a855f7;
+        --accent: #ec4899;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        cursor: default;
+      }
+      h1, h2, h3, h4, .font-sora {
+        font-family: 'Sora', sans-serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .dark .glass {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .btn-primary-glow {
+        box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+      }
+      .btn-primary-glow:hover {
+        box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+      }
+      ::-selection {
+        background: #a855f7;
+        color: white;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(99, 102, 241, 0.2);
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(99, 102, 241, 0.4);
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1',
+              secondary: '#a855f7',
+              accent: '#ec4899',
+              dark: '#030712',
+            },
+            animation: {
+              'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 4s ease-in-out infinite',
+              'spin-slow': 'spin 12s linear infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-15px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+        "framer-motion": "https://esm.sh/framer-motion@^12.26.2"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-white dark:bg-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+  </body>
+</html>
